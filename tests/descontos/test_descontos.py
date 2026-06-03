@@ -1,4 +1,4 @@
-from app.descontos.__pychace__.descontos import calcular_desconto
+from app.descontos.descontos import calcular_desconto
 
 def test_calcular_valor_negativo():
     assert calcular_desconto (-10, False) == 0
